@@ -12,6 +12,9 @@ export default function Header({ className }) {
     <header sx={styles.header} className={className} id="header">
       <Container sx={styles.container}>
       <Logo src={LogoDark} />
+      <Flex as="nav" sx={styles.nav}>
+
+      </Flex>
       </Container>
     </header>
   );
