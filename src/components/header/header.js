@@ -13,7 +13,11 @@ export default function Header({ className }) {
       <Container sx={styles.container}>
       <Logo src={LogoDark} />
       <Flex as="nav" sx={styles.nav}>
-
+        {menuItems.map((menuItem, i) => (
+          <Link>
+          
+          </Link>
+        ))}
       </Flex>
       </Container>
     </header>
