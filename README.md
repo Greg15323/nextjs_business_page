@@ -1,6 +1,6 @@
 ## Getting Started
 
-This is going to be a business page
+This is going to be a business page for a construction client
 
 Install the dependencies and run the development server
 
